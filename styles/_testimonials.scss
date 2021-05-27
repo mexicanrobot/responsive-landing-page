@@ -1,0 +1,21 @@
+.testimonials {
+    border-radius: 50px;
+    background-color: #9c69e2;
+    padding: 5%;
+
+    box-sizing: border-box;
+
+    h2 {
+        color: white;
+    }
+}
+
+.testimonials-cards {
+    display: flex;
+    flex-direction: row;
+    overflow-x: visible;
+
+    .card {
+        width: 80%;
+    }
+}

@@ -1,0 +1,37 @@
+.card {
+    border-radius: 50px;
+    p {
+        font-size: 0.888rem;
+    }
+    padding: 5%;
+}
+
+.card-user-img {
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
+
+.card-illustration {
+    max-width: 50%;
+}
+
+.card-bg-white {
+    background: #fff;
+}
+
+.card-bg-pink {
+    background: 100% 100% / cover no-repeat url('../dist/svg/bg_pink.svg');
+}
+
+.card-bg-blue {
+    background: 100% 100% / cover no-repeat url('../dist/svg/bg_blue.svg');
+}
+
+.card-bg-purple {
+    background: 100% 100% / cover no-repeat url('../dist/svg/bg_purple.svg');
+}
+
+.card-bg-aqua {
+    background: 100% 100% / cover no-repeat url('../dist/svg/bg_aqua.svg');
+}

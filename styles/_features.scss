@@ -1,0 +1,55 @@
+
+.features-title {
+    width: 100%;
+}
+
+.features-cards {
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    // 
+    grid-gap: 1rem;
+    // 
+    .card {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        h3, p {
+            text-align: left;
+            position: relative;
+        }
+    }
+}
+
+.features {
+    text-align: center;
+}
+
+@media(min-width: 768px) {
+    .features-cards {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+// 
+
+.intro-card, .intro-landing {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media(min-width: 768px) {
+    .intro-landing-illustration, .intro-card-illustration {
+        max-width: 40%;
+    }
+
+    .intro-card-text {
+        width: 60%
+    }
+
+    .intro-landing-text {
+        width: 60%;
+    }
+}

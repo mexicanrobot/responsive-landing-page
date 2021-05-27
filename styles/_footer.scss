@@ -1,0 +1,48 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+
+    span {
+        font-weight: bold;
+    }
+}
+
+.footer-try-free {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-categories-contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-categories {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    div {
+        flex: 1;
+    }
+}
+
+.footer-category {
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+
+    .logo {
+        margin-right: 5%;
+    }
+}
